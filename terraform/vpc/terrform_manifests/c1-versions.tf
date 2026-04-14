@@ -7,6 +7,15 @@ terraform {
       version = "~>6.0"
     }
   }
+
+  # Remote Backend
+  backend "s3" {
+    bucket       = "tfstate-dev-us-east-1-nc603u54npkr5plm"
+    key          = "retail-store-sample-app-infra/dev/vpc/terraform.tfstate"
+    encrypt      = true
+    use_lockfile = true
+    region       = "us-east-1"
+  }
 }
 
 # Provider Block
