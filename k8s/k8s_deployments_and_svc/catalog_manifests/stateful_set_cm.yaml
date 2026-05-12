@@ -5,5 +5,5 @@ metadata:
 data:
   MYSQL_ROOT_PASSWORD: "my-secret-pw"
   MYSQL_DATABASE: "catalogdb"
-  MYSQL_USER: "catalog_user"
-  MYSQL_PASSWORD: "secret101"
+  # MYSQL_USER: "catalog_user"
+  # MYSQL_PASSWORD: "secret101"
