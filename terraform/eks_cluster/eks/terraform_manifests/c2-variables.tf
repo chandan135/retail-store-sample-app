@@ -28,7 +28,7 @@ variable "tags" {
 variable "cluster_name" {
   description = "Name of the EKS cluster"
   type        = string
-  default     = "reatil-cluster"
+  default     = "retail-cluster"
 }
 
 variable "cluster_version" {
